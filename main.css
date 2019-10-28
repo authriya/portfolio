@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: none;
+    margin: 0;
+}
+
+.nav-bar {
+    background: grey;
+    width: 100%;
+    margin: 0;
+}
+
+.bio {
+    background: rgb(153, 152, 152);
+}
+
+.projects {
+    background: rgb(167, 167, 167);
+}
+
+.contact-me {
+    background: rgb(204, 204, 204);
+}
+
+section {
+  padding: 0 200px;
+  margin-top: 0;
+}
+
+
+main {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
+
+.contact-image {
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    background: darkgrey;
+}
+
+.contact-link {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
