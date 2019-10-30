@@ -96,6 +96,15 @@ footer a {
 .contact-images {
     padding: 0px 200px;
 }
+
+.github-icon {
+    clear: left;
+    float: left;
+}
+
+.linkedin-icon {
+float: right;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px){ 
     section {
         padding: 0 15px;
