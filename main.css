@@ -74,6 +74,8 @@ footer p {
 
 .contact-header {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -145,15 +147,13 @@ float: right;
         line-height: 2;
     }
     
-    .contact-header {
-        padding-top: 30px;
-    }
-    
     .linkedin-icon {
-    margin-right: 300px;
+        position: relative;
+        right: 300px;
     }
     
     .github-icon {
-    margin-left: 300px;
+        position: relative;
+        left: 300px;
     }
 }
