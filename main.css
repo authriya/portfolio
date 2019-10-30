@@ -53,8 +53,7 @@ h1 {
 
 .contact-image {
     height: 300px;
-    float: left;
-    margin-right: 15px;
+    text-align: center;
 }
 
 footer {
@@ -73,8 +72,8 @@ footer p {
     font-weight: normal;
 }
 
-contact-header {
-    padding: 0px 0px 0px 50px;
+.contact-header {
+    text-align: center;
 }
 
 a {
@@ -89,15 +88,13 @@ a {
 
 footer a {
     color: white;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
 }
 
 .github-icon, .linkedin-icon {
     height: 70px;
     padding: 10px;
-}
-
-.contact-images {
-    padding: 0px 600px;
 }
 
 .github-icon {
@@ -135,11 +132,12 @@ float: right;
     height: 125px;
     }
     
-    .contact-header {
-    font-size: 16px;
-    }
     main {
     margin: 150px 0px 150px 0px;
+    }
+    
+    footer p {
+    font-size: 13px;
     }
 
 @media only screen and (min-width: 768px){ 
@@ -149,5 +147,13 @@ float: right;
     
     .contact-header {
         padding-top: 30px;
+    }
+    
+    .linkedin-icon {
+    margin-right: 300px;
+    }
+    
+    .github-icon {
+    margin-left: 300px;
     }
 }
