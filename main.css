@@ -32,6 +32,7 @@ body {
 section {
   padding: 0 200px;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 h1.right-header {
@@ -94,15 +95,17 @@ footer a {
 }
 
 .contact-images {
-    padding: 0px 200px;
+    padding: 0px 600px;
 }
 
 .github-icon {
     clear: left;
     float: left;
+    margin-left: 600px;
 }
 
 .linkedin-icon {
+margin-right: 600px;
 float: right;
 }
 
@@ -129,9 +132,12 @@ float: right;
 }
     
     .contact-image {
-    height: 150px;
+    height: 125px;
     }
     
+    .contact-header {
+    font-size: 16px;
+    }
     main {
     margin: 150px 0px 150px 0px;
     }
@@ -139,5 +145,9 @@ float: right;
 @media only screen and (min-width: 768px){ 
     p {
         line-height: 2;
+    }
+    
+    contact-header {
+        padding-top: 30px;
     }
 }
