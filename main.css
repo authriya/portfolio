@@ -102,10 +102,17 @@ footer a {
     font-size: 20px
     }
     
+    body {
+    width: 100%;
+    }
+    
     footer {
         width: 100%;
-        padding: 20px;
 }
+    
+    .contact-image {
+    height: 150px;
+    }
 
 @media only screen and (min-width: 768px){ 
     p {
