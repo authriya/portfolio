@@ -88,7 +88,7 @@ footer a {
     color: white;
 }
 
-.contact-images img {
+.github-icon, .linkedin-icon {
     height: 70px;
     padding: 10px;
 }
@@ -105,6 +105,7 @@ footer a {
 .linkedin-icon {
 float: right;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 767px){ 
     section {
         padding: 0 15px;
