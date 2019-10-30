@@ -11,8 +11,10 @@ body {
 .nav-bar {
     width: 100%;
     margin: 0;
-    background: rgb(13, 28, 94);
-    font-color: white;
+    background: rgb(46, 91, 102);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
 }
 
 section {
@@ -25,7 +27,7 @@ main {
     padding: 0;
     margin: 0;
     width: 100%;
-    background: rgb(184, 245, 242);
+    background: rgb(154, 215, 230);
 }
 h1 {
     font-family: 'Inconsolata', monospace;
