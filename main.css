@@ -32,13 +32,13 @@ section {
   margin-top: 0;
 }
 
-h1 .right-header {
+h1.right-header {
     text-align: right;
 }
 
 main {
     padding: 0;
-    margin: 0;
+    margin: 300px 0;
     width: 100%;
     background: white;
 }
