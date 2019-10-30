@@ -38,7 +38,7 @@ h1.right-header {
 
 main {
     padding: 0;
-    margin: 300px 0;
+    margin: 150px 0 300px 0;
     width: 100%;
     background: white;
 }
@@ -54,14 +54,21 @@ h1 {
 }
 
 footer {
-    text-align: center;
     background: rgb(32, 113, 120);
     color: white;
     padding: none;
     margin: none;
     width: 100%;
     height: 100px;
+}
+
+footer p {
+    text-align: center;
     vertical-align: middle;
+}
+
+contact-header {
+    padding: 0px 0px 0px 10px;
 }
 
 a {
