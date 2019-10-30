@@ -69,6 +69,8 @@ footer {
 footer p {
     text-align: center;
     padding-top: 17px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
 }
 
 contact-header {
@@ -101,11 +103,9 @@ footer a {
 .github-icon {
     clear: left;
     float: left;
-    margin-left: 600px;
 }
 
 .linkedin-icon {
-margin-right: 600px;
 float: right;
 }
 
@@ -114,7 +114,7 @@ float: right;
         padding: 0 15px;
     }
     
-    p {
+    p, li {
         line-height: 1.5;
         font-size: 16px;
     }
@@ -143,11 +143,11 @@ float: right;
     }
 
 @media only screen and (min-width: 768px){ 
-    p {
+    p, li {
         line-height: 2;
     }
     
-    contact-header {
+    .contact-header {
         padding-top: 30px;
     }
 }
