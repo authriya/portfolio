@@ -9,23 +9,10 @@ body {
 }
 
 .nav-bar {
-    background: grey;
     width: 100%;
     margin: 0;
     background: rgb(13, 28, 94);
     font-color: white;
-}
-
-.bio {
-    background: rgb(153, 152, 152);
-}
-
-.projects {
-    background: rgb(167, 167, 167);
-}
-
-.contact-me {
-    background: rgb(204, 204, 204);
 }
 
 section {
@@ -38,6 +25,7 @@ main {
     padding: 0;
     margin: 0;
     width: 100%;
+    background: rgb(184, 245, 242);
 }
 h1 {
     font-family: 'Inconsolata', monospace;
