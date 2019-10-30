@@ -11,8 +11,11 @@ body {
 .nav-bar {
     width: 100%;
     margin: 0;
-    background: rgb(46, 91, 102);
+    background: rgb(32, 113, 120);
     color: white;
+}
+
+.nav-items {
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
 }
@@ -32,6 +35,7 @@ main {
 h1 {
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
+    color: rgb(32, 113, 120);
 }
 
 .contact-image {
@@ -40,10 +44,12 @@ h1 {
 
 footer {
     text-align: center;
-    background: darkgrey;
+    background: rgb(32, 113, 120);
+    color: white;
 }
 
 .contact-link {
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
+    color: rgb(32, 113, 120);
 }
