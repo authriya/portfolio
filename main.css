@@ -12,7 +12,6 @@ body {
     width: 100%;
     margin: 0;
     background: rgb(32, 113, 120);
-    color: white;
     position: fixed;
     top: 0;
     text-align: center;
@@ -22,11 +21,12 @@ body {
     list-style-type: none;
     text-align: center;
 }
-.nav-items li {
+.nav-items li, .nav-items li a {
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
     display: inline;
     text-align: center;
+    color: white;
 }
 
 section {
