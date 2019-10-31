@@ -51,11 +51,13 @@ h1 {
     color: rgb(32, 113, 120);
 }
 
-.contact-image {
+img.contact-image {
     height: 300px;
-    text-align: center;
 }
 
+section.contact-me {
+    text-align: center;
+}
 footer {
     background: rgb(32, 113, 120);
     color: white;
@@ -100,12 +102,14 @@ footer a {
 }
 
 .github-icon {
+    position: relative;
     clear: left;
     float: left;
 }
 
 .linkedin-icon {
 float: right;
+position: relative;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px){ 
