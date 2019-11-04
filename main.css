@@ -7,15 +7,19 @@
 .nav-bar {
     width: 100%;
     margin: 0;
+    padding: 0;
     background: rgb(32, 113, 120);
     position: fixed;
     top: 0;
+    left: 0;
     text-align: center;
 }
 
 .nav-items {
     list-style-type: none;
     text-align: center;
+    padding: none;
+    margin: 7px;
 }
 .nav-items li, .nav-items li a {
     font-family: 'Inconsolata', monospace;
@@ -23,15 +27,16 @@
     display: inline;
     text-align: center;
     color: white;
+    font-size: 13px;
 }
 
-h1.right-header {
+.right-header {
     text-align: right;
 }
 
 main {
-    padding: 0;
-    margin: 150px 0 300px 0;
+    margin: 0;
+    padding: 100px 5px 150px 5px;
     width: 100%;
     background: white;
 }
@@ -40,10 +45,34 @@ h1 {
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
     color: rgb(32, 113, 120);
+    font-size: 22px;
 }
 
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    color: rgb(32, 113, 120);
+    font-size: 19px;
+}
+
+body {
+    font-size: 13px;
+    line-height: 2;
+}
+
+section.projects, section.bio {
+    margin-bottom: 100px;
+}
+
+img.quiz-screenshot{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 img.contact-image {
-    height: 150px;
+    height: 100px;
     width: auto;
 }
 
@@ -65,9 +94,9 @@ footer {
 
 footer p {
     text-align: center;
-    padding-top: 17px;
     font-family: 'Inconsolata', monospace;
     font-weight: normal;
+    font-size: 12px;
 }
 
 .contact-header {
@@ -106,4 +135,95 @@ footer a {
 .linkedin-icon {
 float: right;
 position: relative;
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-items li, .nav-items li a {
+        font-size: 16px;
+    }
+    body {
+        font-size: 16px;
+    }
+
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 250px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    img.contact-image {
+        height: 170px;
+        width: auto;
+    }
+
+    img.quiz-screenshot {
+        width: 550px;
+        height: auto;
+    }
+
+    .github-icon, .linkedin-icon {
+        height: 150px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .nav-items li, .nav-items li a {
+        font-size: 22px;
+    }
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        padding-left: 175px;
+        padding-right: 175px;
+        padding-bottom: 300px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    footer {
+        height: 70px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+
+    img.contact-image {
+        height: 250px;
+        width: auto;
+    }
+
+    section.contact-me {
+        margin-top: 200px;
+    }
+
+    img.quiz-screenshot {
+        width: 650px;
+        height: auto;
+    }
+
+    .github-icon, .linkedin-icon {
+        height: 200px;
+        padding: 10px;
+    }
 }
