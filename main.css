@@ -64,12 +64,13 @@ section.projects, section.bio {
     margin-bottom: 100px;
 }
 
-img.quiz-screenshot{
+img.screenshot{
     width: 300px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 img.contact-image {
     height: 100px;
@@ -168,9 +169,10 @@ position: relative;
         width: auto;
     }
 
-    img.quiz-screenshot {
+    img.screenshot {
         width: 550px;
         height: auto;
+        margin-bottom: 50px;
     }
 
     .github-icon, .linkedin-icon {
@@ -217,9 +219,10 @@ position: relative;
         margin-top: 200px;
     }
 
-    img.quiz-screenshot {
+    img.screenshot {
         width: 650px;
         height: auto;
+        margin-bottom: 100px;
     }
 
     .github-icon, .linkedin-icon {
