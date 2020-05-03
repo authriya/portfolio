@@ -55,6 +55,13 @@ h2 {
     font-size: 19px;
 }
 
+h3 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    color: rgb(32, 113, 120);
+    font-size: 20px;
+}
+
 body {
     font-size: 13px;
     line-height: 2;
