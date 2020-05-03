@@ -122,20 +122,17 @@ footer a {
     font-weight: normal;
 }
 
-.github-icon, .linkedin-icon {
-    height: 70px;
-    padding: 10px;
-}
-
 .github-icon {
+    height: 100px;
     position: relative;
     clear: left;
     float: left;
 }
 
 .linkedin-icon {
-float: right;
-position: relative;
+    height: 90px;
+    float: right;
+    position: relative;
 }
 
 @media only screen and (min-width: 600px) {
@@ -175,9 +172,12 @@ position: relative;
         margin-bottom: 50px;
     }
 
-    .github-icon, .linkedin-icon {
+    .github-icon {
         height: 150px;
-        padding: 10px;
+    }
+
+    .linkedin-icon {
+        height: 140px;
     }
 }
 
@@ -225,8 +225,11 @@ position: relative;
         margin-bottom: 100px;
     }
 
-    .github-icon, .linkedin-icon {
+    .github-icon {
         height: 200px;
-        padding: 10px;
+    }
+
+    .linkedin-icon {
+        height: 190px;
     }
 }
