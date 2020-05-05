@@ -36,7 +36,7 @@
 
 main {
     margin: 0;
-    padding: 100px 5px 150px 5px;
+    padding: 50px 5px 150px 5px;
     width: 100%;
     background: white;
 }
@@ -129,17 +129,13 @@ footer a {
     font-weight: normal;
 }
 
-.github-icon {
-    height: 100px;
-    position: relative;
-    clear: left;
-    float: left;
+div.project {
+    border-bottom: 1px solid black;
 }
 
-.linkedin-icon {
-    height: 90px;
-    float: right;
-    position: relative;
+.fab {
+    font-size: 50px;
+    padding: 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -178,13 +174,9 @@ footer a {
         height: auto;
         margin-bottom: 50px;
     }
-
-    .github-icon {
-        height: 150px;
-    }
-
-    .linkedin-icon {
-        height: 140px;
+    .fab {
+        font-size: 80px;
+        padding: 0px 30px;
     }
 }
 
@@ -232,11 +224,8 @@ footer a {
         margin-bottom: 100px;
     }
 
-    .github-icon {
-        height: 200px;
-    }
-
-    .linkedin-icon {
-        height: 190px;
+    .fab {
+        font-size: 80px;
+        padding: 0px 30px;
     }
 }
