@@ -1,1 +1,1 @@
-# portfolio for thinkful course
+## Supriya Ganesh's Full-Stack Portfolio
