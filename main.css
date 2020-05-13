@@ -13,6 +13,7 @@
     top: 0;
     left: 0;
     text-align: center;
+    z-index:1;
 }
 
 .nav-items {
@@ -138,6 +139,18 @@ div.project {
     padding: 10px;
 }
 
+div.profile-div {
+    float: left;
+}
+
+img.profile {
+    transform: rotate(357deg);
+    border: 5px solid rgb(32, 113, 120);
+    margin: 5px;
+    height: 170px;
+    vertical-align: bottom;
+}
+
 @media only screen and (min-width: 600px) {
     .nav-items li, .nav-items li a {
         font-size: 16px;
@@ -177,6 +190,11 @@ div.project {
     .fab {
         font-size: 80px;
         padding: 0px 30px;
+    }
+
+    img.profile {
+        height: 300px;
+        margin: 10px;
     }
 }
 
